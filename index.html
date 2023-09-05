@@ -1,254 +1,109 @@
-/* Home Page */
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
 
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Mulish', sans-serif;
-}
-.fnav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    color: white;
-    background-color: rgb(42,42,68);
-}
+<body>
+    <nav class="fnav">
+        <div class="left">
+           
+            <input type="text" placeholder="Search For Events">
+        </div>
 
-.fnav .left{
-    display: flex;
-    
+        <div class="right">
+            
+            <button> Login</a></button>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
 
-
-}
-
-.left input{
-    margin-inline: 11px;
-    width: 720px;
-    height: 33px;
-    border: none;
-    outline: none;
-    text-align: center;
-    margin-top: 16px;
-    border-radius: 2px;
-}
-
-.fnav .right{
-    display: flex;
-    margin-top: 16px;
-    position: absolute; top: 0px; right: 0px
-
-}
+    <nav class="sec-nav">
+       
+            <ul>
+                <li>Home</li>
+                <li>My Events</li>
+                <li>Sponsors</li>
+                <li>Volunteers</li>
+                <li><a href="create_event.html">List Your Event</li></a>
 
 
 
 
-.right button{
-    
-    margin-inline: 22px;
-    width: 80px;
-    height: 27px;
-    border: none;
-    border-radius: 2px;
-    background-color: rgb(251, 59, 91);
-    color: white;
-}
-
-.right i{
-    margin-inline: 22px;
-    font-size: 22px;
-}
-
-.sec-nav{
-
-
-  background: rgb(26,26,48);
-  text-align: center;
-
-}
-.sec-nav ul{
-  display: inline-flex;
-  list-style: none;
-  color:white;
-}
-.sec-nav ul li{
-  
-  width :120px;
-  margin:15px;
-  padding: 15px;
-  color: white;
-}
-
-
-a{
-  text-decoration: none; 
-  color:white;
-}
-a:hover{
-  color: rgb(245, 70, 99);
-  cursor: pointer;
-  font-weight: 600;
-}
+            </ul>
+ 
 
 
 
-
-.sec-nav li:hover{
-    color: rgb(245, 70, 99);
-    cursor: pointer;
-    font-weight: 600;
-
-}
+        
 
 
+    </nav>
+
+    <div class="main">
+        
+        <img src="4.jpg" alt="">
+    </div>
 
 
-.main img{
-    width: 100%;
-}
-.container h2{
-  text-align: center;
-  padding: 22px;
-}
-.container .card{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-.card img{
-    width: 17%;
-    margin-block: 15px;
-    border-radius: 5px;
-}
+    <div class="container">
+        <h2>Ongoing Events</h2>
+        <div class="card">
+            <img src="5.jpeg"
+                alt="">
+            <img src="6.jpeg"
+                alt="">
+            <img src="7.jpeg"
+                alt="">
+            <img src="8.jpeg"
+                alt="">
+            <img src="9.jpg"
+                alt="">
 
-.premiere{
-    background-color: rgb(8, 8, 19);
-    color: white;
-    padding: 33px;
-    margin-top: 44px;
-
-} 
-.container .card {
-    margin-top: 11px;
-}
-
-.footer{
-    background-color: rgb(227, 218, 218);
-    padding: 33px;
-    margin-top: 44px;
-}
-
-.footer .icon{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-     
-    
-}
-.icon i{
-    margin-inline:22px ;
-    font-size: 25px;
-    font-size: 36px;
-    
-    
-}
+        </div>
+    </div>
 
 
-/* create event page */
+    <div class="premiere">
+        
+        <div class="container">
+            <h2>Past Events</h2>
+             
+            <div class="card">
+            <img src="10.jpeg"
+                alt="">
+            <img src="11.jpeg"
+                alt="">
+            <img src="12.jpeg"
+                alt="">
+            <img src="13.jpeg"
+                alt="">
+            <img src="14.jpeg"
+                alt="">
 
-.c-event  {
-    display:block;
-    width:800px;
-    height:auto;
-    margin:50px auto;
-    padding:10px;
-    border-radius:10px;
-    background-color:#F6F5F7;
-    font-size:16px;
-    font-family:'Arial';
-    color:rgb(255, 255, 255)
-  }
-  
-  table {
-    margin:0 auto;
-  }
-  
-  table td {
-    vertical-align: top;
-  }
-  
-  table td.lbl {
-    padding-top:30px;
-    padding-right:10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
-    
-    
-  }
-  
+            </div>
+        </div>
+    </div>
 
 
 
-  #title {
-    display:block;
-    margin:0;
-    padding: 20px;
-    text-align:center;
-    font-size:20px;
-    color:rgb(0, 184, 246);
-  }
-  
-  .textbox {
-    width:600px;
-    height:auto;
-    margin:20px auto;
-    padding:10px;
-    border:none;
-    border-radius:10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color:rgb(255, 255, 255);
-    font-size:16px;
-    color:rgb(63, 63, 63);
-    outline: none;
-    
-  }
-  
-  .textbox1 {
-    width:200px;
-    height:auto;
-    margin:20px auto;
-    padding:10px;
-    border:none;
-    border-radius:10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color:rgb(255, 255, 255);
-    font-size:16px;
-    color:rgb(63, 63, 63);
-    outline: none;
-    
-  }
+    <div class="footer">
 
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
 
-  
-  .errtextbox {
-    box-shadow: 0 0 10px rgb(255,0,0);
-  }
-  
+</body>
 
-  #e-description {
-    
-    width:600px;
-    height:200px;
-    resize:none;
-  }
-  
-  #c-event-button {
-    display:block;
-    margin:0 auto 10px;
-    padding:7px;
-    border:none;
-    border-radius:10px;
-    background-color:rgb(0, 128, 174);
-    font-size:16px;
-    color:rgb(255, 255, 255);
-  }
+</html>
