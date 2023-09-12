@@ -1,115 +1,115 @@
 <head>
-  <meta charset="utf-8">
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
-</head>
-<body>
-
-  <form class = "c-event" action="/reg" method="POST" id="regForm">
-  <lable id="title">Create Event</lable>
-  <table>
-    <tboby>
-      <tr>
-        <td class="lbl">Name of Event:</td>
-        <td><input placeholder="write here.." type="text" name="name" id="name-event" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Event Tageline:</td>
-        <td><input placeholder="write here..(if any)" type="text" name="tageline" id="tageline" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Organization Name:</td>
-        <td><input placeholder="write here.." type="text" name="text" id="name-club" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Email;:</td>
-        <td><input  placeholder="write here.." type="email" name="Email" id="Email" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Event Location:</td>
-        <td><input placeholder="write here.." type="text" name="Location" id="Location" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Date:</td>
-        <td><input type="date" name="date" id="date" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Deadline:</td>
-        <td><input type="date" name="deadline" id="deadline" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Start Time:</td>
-        <td><input type="time" name="s-time" id="s-time" class="textbox1"/>
-      </tr>
-      <tr>
-        <td  class="lbl">End Time:</td>
-        <td ><input type="time" name="e-time" id="e-time" class="textbox1"/>
-      </tr>
-      
-
-      <tr>
-        <td class="lbl">Event Description:</td>
-        <td><textarea maxlength="250" placeholder="write here.." name="e-description" id="e-description" class="textbox"></textarea>
-      </tr>
-      
-      <tr>
-        <td  id="Domain">Event Domain:</td>
-        <td>
-          <select id="Domains" class="textbox" multiple>
-            <option value="Domain">Select Domain</option>     
-            <option value="Art">Art</option>
-            <option value="Coding">Coding</option>     
-            <option value="Cultural">Cultural</option>   
-            <option value="Food">Food</option>   
-            <option value="Seminar">Seminar</option>     
-            <option value="Sports">Sport</option>     
-
-        </td>
-      </tr>
-
-      <tr>
-        <td class="lbl">Registarion Price:</td>
-        <td><input placeholder="in Rs" type="number" name="price" id="price" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Price Pool:</td>
-        <td><input placeholder="write here.." type="text" name="price-pool" id="price-pool" class="textbox"/>
-      </tr>  
-
-      <tr>
-        <td class="lbl">Participation Criteria:</td>
-        <td><input placeholder="write here.." type="text" name="criteria" id="criteria" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Attach Image:</td>
-        <td><input type="file" accept="image/jpeg,image/png,image/jpg"  name="attach-image" id="attach-image"" class="textbox"/>
-      </tr>
-
-      <tr>
-        <td class="lbl">Registration Link:</td>
-        <td><input placeholder="Paste here.." type="text" name="Link" id="Link" class="textbox"/>
-      </tr>
-
-
-    </tbody>
-  </table>
-  <input type="button" id="c-event-button" value="Create Event"/>
-</form>
-
-<script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
-<script>
-  new MultiSelectTag('Domains')  // id
-</script>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+  </head>
+  <body>
   
-</body>
+    <form class = "c-event" action="/reg" method="POST" id="regForm">
+    <lable id="title">Create Event</lable>
+    <table>
+      <tboby>
+        <tr>
+          <td class="lbl">Name of Event:</td>
+          <td><input placeholder="write here.." type="text" name="name" id="name-event" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Event Tageline:</td>
+          <td><input placeholder="write here..(if any)" type="text" name="tageline" id="tageline" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Organization Name:</td>
+          <td><input placeholder="write here.." type="text" name="text" id="name-club" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Email;:</td>
+          <td><input  placeholder="write here.." type="email" name="Email" id="Email" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Event Location:</td>
+          <td><input placeholder="write here.." type="text" name="Location" id="Location" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Date:</td>
+          <td><input type="date" name="date" id="date" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Deadline:</td>
+          <td><input type="date" name="deadline" id="deadline" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Start Time:</td>
+          <td><input type="time" name="s-time" id="s-time" class="textbox1"/>
+        </tr>
+        <tr>
+          <td  class="lbl">End Time:</td>
+          <td ><input type="time" name="e-time" id="e-time" class="textbox1"/>
+        </tr>
+        
+  
+        <tr>
+          <td class="lbl">Event Description:</td>
+          <td><textarea maxlength="250" placeholder="write here.." name="e-description" id="e-description" class="textbox"></textarea>
+        </tr>
+        
+        <tr>
+          <td  id="Domain">Event Domain:</td>
+          <td>
+            <select id="Domains" class="textbox" multiple>
+              <option value="Domain">Select Domain</option>     
+              <option value="Art">Art</option>
+              <option value="Coding">Coding</option>     
+              <option value="Cultural">Cultural</option>   
+              <option value="Food">Food</option>   
+              <option value="Seminar">Seminar</option>     
+              <option value="Sports">Sport</option>     
+  
+          </td>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Registarion Price:</td>
+          <td><input placeholder="in Rs" type="number" name="price" id="price" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Price Pool:</td>
+          <td><input placeholder="write here.." type="text" name="price-pool" id="price-pool" class="textbox"/>
+        </tr>  
+  
+        <tr>
+          <td class="lbl">Participation Criteria:</td>
+          <td><input placeholder="write here.." type="text" name="criteria" id="criteria" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Attach Image:</td>
+          <td><input type="file" accept="image/jpeg,image/png,image/jpg"  name="attach-image" id="attach-image"" class="textbox"/>
+        </tr>
+  
+        <tr>
+          <td class="lbl">Registration Link:</td>
+          <td><input placeholder="Paste here.." type="text" name="Link" id="Link" class="textbox"/>
+        </tr>
+  
+  
+      </tbody>
+    </table>
+    <input type="button" id="c-event-button" value="Create Event"/>
+  </form>
+  
+  <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+  <script>
+    new MultiSelectTag('Domains')  // id
+  </script>
+    
+  </body>
